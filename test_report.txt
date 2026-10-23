@@ -1,0 +1,14 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.16, pytest-8.4.2, pluggy-1.7.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /content
+plugins: anyio-4.15.1, langsmith-0.14.11, platformdirs-4.13.4, typeguard-4.6.0
+collecting ... collected 5 items
+
+tests/test_concrete_model.py::test_perfect_predictions PASSED            [ 20%]
+tests/test_concrete_model.py::test_known_errors PASSED                   [ 40%]
+tests/test_concrete_model.py::test_mismatched_lengths PASSED             [ 60%]
+tests/test_concrete_model.py::test_missing_values PASSED                 [ 80%]
+tests/test_concrete_model.py::test_insufficient_observations PASSED      [100%]
+
+============================== 5 passed in 1.84s ===============================
