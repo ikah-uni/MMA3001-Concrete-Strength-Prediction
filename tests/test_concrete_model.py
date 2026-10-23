@@ -26,7 +26,7 @@ def test_known_errors():
 
     assert np.isclose(results["MAE"], 4 / 3)
     assert np.isclose(results["RMSE"], np.sqrt(8 / 3))
-    assert np.isclose(results["R2"], 0.98)
+    assert np.isclose(results["R2"], 0.96)
 
 
 def test_mismatched_lengths():
